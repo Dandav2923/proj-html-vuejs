@@ -5,7 +5,7 @@
         <div class="card bg-dark text-white border-0 ">
           <img src="../../assets/img/blog-46.jpg" class="card-img" alt="">
             <div class="card-img-overlay text-container">
-              <button type="button" class="btn text-uppercase">photografy</button>
+              <button type="button" class="btn text-uppercase">photography</button>
               <p class="card-text">How To Take Better Concert Pictures in 30 Seconds</p>
             </div>
         </div>
@@ -15,7 +15,7 @@
           <img src="../../assets/img/blog-47.jpg" class="card-img" alt="">
             <div class="card-img-overlay text-container">
               <button type="button" class="btn text-uppercase">gadgets</button>
-              <p class="card-text">Gadgets Tasht Make Your Smartphone Even Smarter</p>
+              <p class="card-text">Gadgets That Make Your Smartphone Even Smarter</p>
             </div>
         </div>
       </div>
@@ -51,7 +51,7 @@
           <img src="../../assets/img/blog-51.jpg" class="card-img" alt="">
             <div class="card-img-overlay text-container">
               <button type="button" class="btn text-uppercase">recipes</button>
-              <p class="card-text">Amaziong Fresh Fruit And Herb Drinks For Summer</p>
+              <p class="card-text">Amazing Fresh Fruit And Herb Drinks For Summer</p>
             </div>
         </div>
       </div>

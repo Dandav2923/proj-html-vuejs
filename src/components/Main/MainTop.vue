@@ -1,59 +1,158 @@
 <template>
   <div class="container">
-    <div class="row">
-      <div class="col-4">
-        <div class="card bg-dark text-white">
+    <div class="row row-cols-3 justify-content-between">
+      <div class="col">
+        <div class="card bg-dark text-white border-0 ">
           <img src="../../assets/img/blog-46.jpg" class="card-img" alt="">
             <div class="card-img-overlay text-container">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <button type="button" class="btn text-uppercase">photografy</button>
+              <p class="card-text">How To Take Better Concert Pictures in 30 Seconds</p>
             </div>
         </div>
       </div>
-      <div class="col-4">
-        <div class="card bg-dark text-white">
+      <div class="col">
+        <div class="card bg-dark text-white border-0 ">
           <img src="../../assets/img/blog-47.jpg" class="card-img" alt="">
             <div class="card-img-overlay text-container">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <button type="button" class="btn text-uppercase">gadgets</button>
+              <p class="card-text">Gadgets Tasht Make Your Smartphone Even Smarter</p>
             </div>
         </div>
       </div>
-      <div class="col-4">
-        <div class="card bg-dark text-white">
+      <div class="col">
+        <div class="card bg-dark text-white border-0 ">
           <img src="../../assets/img/blog-48.jpg" class="card-img" alt="">
             <div class="card-img-overlay text-container">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <button type="button" class="btn text-uppercase">travel</button>
+              <p class="card-text">20 Top-Rated Tourist Attractions in Manhattan</p>
+            </div>
+        </div>
+      </div>
+      <div class="col">
+      <div class="card bg-dark text-white border-0 ">
+        <img src="../../assets/img/blog-49.jpg" class="card-img" alt="">
+          <div class="card-img-overlay text-container bottom">
+            <button type="button" class="btn text-uppercase">lifestyle</button>
+            <p class="card-text">The Best Way to Ride a Motorcycle</p>
+          </div>
+      </div>
+      </div>
+      <div class="col">
+        <div class="card bg-dark text-white border-0 ">
+          <img src="../../assets/img/blog-50.jpg" class="card-img" alt="">
+            <div class="card-img-overlay text-container bottom">
+              <button type="button" class="btn text-uppercase">travel</button>
+              <p class="card-text">5 Fun Things to Do at the Beach</p>
+            </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-dark text-white border-0 ">
+          <img src="../../assets/img/blog-51.jpg" class="card-img" alt="">
+            <div class="card-img-overlay text-container">
+              <button type="button" class="btn text-uppercase">recipes</button>
+              <p class="card-text">Amaziong Fresh Fruit And Herb Drinks For Summer</p>
             </div>
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-4">
-        <div class="card bg-dark text-white">
-          <img src="../../assets/img/blog-49.jpg" class="card-img" alt="">
-            <div class="card-img-overlay text-container">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+    <div class="row row-cols-3">
+      <div class="col popular-posts">
+        <h2>Popular posts</h2>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item p-0 my-2 d-flex">
+            <img class="w-25 my-3" src="../../assets/img/blog-55.jpg" alt="">
+            <div class="container-info p-3">
+              <h5>titolo articolo</h5>
+              <p>data articolo</p>
             </div>
-        </div>
+          </li>
+          <li class="list-group-item p-0 my-2 d-flex">
+            <img class="w-25 my-3" src="../../assets/img/blog-55.jpg" alt="">
+            <div class="container-info p-3">
+              <h5>titolo articolo</h5>
+              <p>data articolo</p>
+            </div>
+          </li>
+          <li class="list-group-item p-0 my-2 d-flex">
+            <img class="w-25 my-3" src="../../assets/img/blog-55.jpg" alt="">
+            <div class="container-info p-3">
+              <h5>titolo articolo</h5>
+              <p>data articolo</p>
+            </div>
+          </li>
+          <li class="list-group-item p-0 my-2 d-flex">
+            <img class="w-25 my-3" src="../../assets/img/blog-55.jpg" alt="">
+            <div class="container-info p-3">
+              <h5>titolo articolo</h5>
+              <p>data articolo</p>
+            </div>
+          </li>
+          <li class="list-group-item p-0 my-2 d-flex">
+            <img class="w-25 my-3" src="../../assets/img/blog-55.jpg" alt="">
+            <div class="container-info p-3">
+              <h5>titolo articolo</h5>
+              <p>data articolo</p>
+            </div>
+          </li>
+        </ul>
       </div>
-      <div class="col-4">
-        <div class="card bg-dark text-white">
+      <div class="col recent-posts">
+        <h2>Popular posts</h2>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item p-0 my-2 d-flex">
+            <img class="w-25 my-3" src="../../assets/img/blog-55.jpg" alt="">
+            <div class="container-info p-3">
+              <h5>titolo articolo</h5>
+              <p>data articolo</p>
+            </div>
+          </li>
+          <li class="list-group-item p-0 my-2 d-flex">
+            <img class="w-25 my-3" src="../../assets/img/blog-55.jpg" alt="">
+            <div class="container-info p-3">
+              <h5>titolo articolo</h5>
+              <p>data articolo</p>
+            </div>
+          </li>
+          <li class="list-group-item p-0 my-2 d-flex">
+            <img class="w-25 my-3" src="../../assets/img/blog-55.jpg" alt="">
+            <div class="container-info p-3">
+              <h5>titolo articolo</h5>
+              <p>data articolo</p>
+            </div>
+          </li>
+          <li class="list-group-item p-0 my-2 d-flex">
+            <img class="w-25 my-3" src="../../assets/img/blog-55.jpg" alt="">
+            <div class="container-info p-3">
+              <h5>titolo articolo</h5>
+              <p>data articolo</p>
+            </div>
+          </li>
+          <li class="list-group-item p-0 my-2 d-flex">
+            <img class="w-25 my-3" src="../../assets/img/blog-55.jpg" alt="">
+            <div class="container-info p-3">
+              <h5>titolo articolo</h5>
+              <p>data articolo</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col featured-post">
+        <h2>featured posts</h2>
+        <div class="card bg-dark text-white border-0 ">
           <img src="../../assets/img/blog-50.jpg" class="card-img" alt="">
-            <div class="card-img-overlay text-container">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="card-img-overlay">
+              <button type="button" class="btn text-uppercase">travel</button>
+              <p class="card-text">5 Fun Things to Do at the Beach</p>
             </div>
         </div>
-      </div>
-      <div class="col-4">
-        <div class="card bg-dark text-white">
-          <img src="../../assets/img/blog-51.jpg" class="card-img" alt="">
-            <div class="card-img-overlay text-container">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h2>featured author</h2>
+        <div class="p-0 my-2 d-flex">
+            <img class="w-25 my-3" src="../../assets/img/blog-55.jpg" alt="">
+            <div class="container-info p-3">
+              <h5>titolo articolo</h5>
+              <p>data articolo</p>
             </div>
         </div>
       </div>
@@ -69,7 +168,21 @@ export default {
 
 <style lang="scss" scoped>
 @import "../../assets/scss/partials/_variables.scss";
+.row .col {
+  margin: 0.7em 0 0.7em 0;
+}
+.card-img-overlay.bottom {
+  margin-top: 8em ;
+}
 .card-img-overlay {
-  margin-top: 2em ;
+  margin-top: 6.5em ;
+  .card-text {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+}
+.btn {
+  background-color: $bg-color-blue;
+  color: $text-color-white;
 }
 </style>

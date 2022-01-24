@@ -1,5 +1,5 @@
 <template>
-<div class="container">
+<div class="container-fluid">
 <HeaderTop />
 <HeaderMid />
 <HeaderBot />
@@ -20,6 +20,9 @@ components: {
 }
 </script>
 
-<style>
-
+<style lang="scss" scoped>
+@import "../../assets/scss/style.scss";
+.container-fluid {
+    padding:0 !important;
+}
 </style>

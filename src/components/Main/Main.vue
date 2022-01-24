@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container-fluid">
       <MainTop />
       <MainMid />
       <MainBot />
@@ -16,7 +16,7 @@ export default {
         MainMid,
         MainBot,
     },
-    name: 'Main'
+    name: 'Main',
 }
 </script>
 

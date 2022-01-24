@@ -2,7 +2,8 @@
 <div class="container-fluid">
 <HeaderTop />
 <HeaderMid />
-<HeaderBot />
+<hr class="m-0">
+<HeaderBot/>
 </div>
 </template>
 

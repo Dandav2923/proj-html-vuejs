@@ -1,6 +1,9 @@
 <template>
-  <div class="contaiener">
-      
+  <div class="container">
+      <img 
+        class="py-4"
+        src="../../assets/img/logo-default-slim.png" 
+        alt="logo della società">
   </div>
 </template>
 
@@ -10,6 +13,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+@import "../../assets/scss/partials/_variables.scss";
 
 </style>

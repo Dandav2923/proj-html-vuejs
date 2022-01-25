@@ -1,5 +1,5 @@
 <template>
-<div class="container-fluid p-0">
+<div class="container-fluid p-0 my-5">
     <MainTop />
     <MainMid />
     <MainBot />

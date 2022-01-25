@@ -153,7 +153,7 @@
               </div>
             </div>
             <div class="container-post">
-                <div class="row row-cols-3 p-0">
+                <div class="row row-cols-3 m-0">
                   <div class="col p-0">
                     <img class="w-100" src="../../assets/img/blog-13.jpg" alt="">
                   </div>
@@ -287,6 +287,35 @@
         </div>
       </div>
     </div>
+    <div class="row">
+      <div class="col-9">
+        <nav
+      aria-label="Page navigation example">
+      <ul class="pagination justify-content-end">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">1</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">3</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+      </div>
+    </div>
+    
   </div>
 </template>
 
@@ -305,7 +334,10 @@ export default {
   background-color: $bg-color-semi-black;
   color: $text-color-grey;
 }
-
-
-
+.page-link:hover {
+  z-index: 2;
+  color: $text-color-white;
+  background-color: $bg-color-blue;
+  border-color: #dee2e6;
+}
 </style>

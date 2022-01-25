@@ -61,35 +61,35 @@
       <div class="col popular-posts">
         <h2>Popular posts</h2>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item p-0 my-2 d-flex">
+          <li class="list-group-item p-0 my-2 d-flex w-75">
             <img class="w-25 my-3" src="../../assets/img/blog-55.jpg" alt="">
             <div class="container-info p-3">
               <h5>titolo articolo</h5>
               <p>data articolo</p>
             </div>
           </li>
-          <li class="list-group-item p-0 my-2 d-flex">
+          <li class="list-group-item p-0 my-2 d-flex w-75">
             <img class="w-25 my-3" src="../../assets/img/blog-55.jpg" alt="">
             <div class="container-info p-3">
               <h5>titolo articolo</h5>
               <p>data articolo</p>
             </div>
           </li>
-          <li class="list-group-item p-0 my-2 d-flex">
+          <li class="list-group-item p-0 my-2 d-flex w-75">
             <img class="w-25 my-3" src="../../assets/img/blog-55.jpg" alt="">
             <div class="container-info p-3">
               <h5>titolo articolo</h5>
               <p>data articolo</p>
             </div>
           </li>
-          <li class="list-group-item p-0 my-2 d-flex">
+          <li class="list-group-item p-0 my-2 d-flex w-75">
             <img class="w-25 my-3" src="../../assets/img/blog-55.jpg" alt="">
             <div class="container-info p-3">
               <h5>titolo articolo</h5>
               <p>data articolo</p>
             </div>
           </li>
-          <li class="list-group-item p-0 my-2 d-flex">
+          <li class="list-group-item p-0 my-2 d-flex w-75">
             <img class="w-25 my-3" src="../../assets/img/blog-55.jpg" alt="">
             <div class="container-info p-3">
               <h5>titolo articolo</h5>
@@ -101,35 +101,35 @@
       <div class="col recent-posts">
         <h2>Popular posts</h2>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item p-0 my-2 d-flex">
+          <li class="list-group-item p-0 my-2 d-flex w-75">
             <img class="w-25 my-3" src="../../assets/img/blog-55.jpg" alt="">
             <div class="container-info p-3">
               <h5>titolo articolo</h5>
               <p>data articolo</p>
             </div>
           </li>
-          <li class="list-group-item p-0 my-2 d-flex">
+          <li class="list-group-item p-0 my-2 d-flex w-75">
             <img class="w-25 my-3" src="../../assets/img/blog-55.jpg" alt="">
             <div class="container-info p-3">
               <h5>titolo articolo</h5>
               <p>data articolo</p>
             </div>
           </li>
-          <li class="list-group-item p-0 my-2 d-flex">
+          <li class="list-group-item p-0 my-2 d-flex w-75">
             <img class="w-25 my-3" src="../../assets/img/blog-55.jpg" alt="">
             <div class="container-info p-3">
               <h5>titolo articolo</h5>
               <p>data articolo</p>
             </div>
           </li>
-          <li class="list-group-item p-0 my-2 d-flex">
+          <li class="list-group-item p-0 my-2 d-flex w-75">
             <img class="w-25 my-3" src="../../assets/img/blog-55.jpg" alt="">
             <div class="container-info p-3">
               <h5>titolo articolo</h5>
               <p>data articolo</p>
             </div>
           </li>
-          <li class="list-group-item p-0 my-2 d-flex">
+          <li class="list-group-item p-0 my-2 d-flex w-75">
             <img class="w-25 my-3" src="../../assets/img/blog-55.jpg" alt="">
             <div class="container-info p-3">
               <h5>titolo articolo</h5>
@@ -140,16 +140,16 @@
       </div>
       <div class="col featured-post">
         <h2>featured posts</h2>
-        <div class="card bg-dark text-white border-0 ">
+        <div class="card bg-dark text-white border-0 my-5">
           <img src="../../assets/img/blog-50.jpg" class="card-img" alt="">
             <div class="card-img-overlay">
               <button type="button" class="btn text-uppercase">travel</button>
               <p class="card-text">5 Fun Things to Do at the Beach</p>
             </div>
         </div>
-        <h2>featured author</h2>
-        <div class="p-0 my-2 d-flex">
-            <img class="w-25 my-3" src="../../assets/img/blog-55.jpg" alt="">
+        <h2 class="my-5">featured author</h2>
+        <div class="p-0 my-5 d-flex w-75">
+            <img class="w-75 my-3" src="../../assets/img/blog-55.jpg" alt="">
             <div class="container-info p-3">
               <h5>titolo articolo</h5>
               <p>data articolo</p>

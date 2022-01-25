@@ -1,7 +1,7 @@
 <template>
 <div class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-10">
+        <div class="col-10 p-4">
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active d-flex justify-content-center" data-bs-interval="false">
@@ -97,11 +97,6 @@
 <script>
 export default {
     name: 'MainMid',
-    data (){
-        return [
-            
-        ]
-    }
 }
 </script>
 

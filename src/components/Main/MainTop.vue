@@ -3,16 +3,21 @@
     <div class="row row-cols-3 justify-content-between">
       <div class="col">
         <div class="card bg-dark text-white border-0 ">
-          <img src="../../assets/img/blog-46.jpg" class="card-img" alt="">
+          <img src="../../assets/img/blog-46.jpg" class="card-img opacity-50" alt="">
             <div class="card-img-overlay text-container">
               <button type="button" class="btn text-uppercase">photography</button>
-              <p class="card-text">How To Take Better Concert Pictures in 30 Seconds</p>
+              <p class="card-text">
+                How To Take Better Concert Pictures in 30 Seconds
+              </p>
+              <p class="text-hover">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit cum nisi laboriosam? Cumque eum illum a corporis vero nisi!
+              </p>
             </div>
         </div>
       </div>
       <div class="col">
         <div class="card bg-dark text-white border-0 ">
-          <img src="../../assets/img/blog-47.jpg" class="card-img" alt="">
+          <img src="../../assets/img/blog-47.jpg" class="card-img opacity-50" alt="">
             <div class="card-img-overlay text-container">
               <button type="button" class="btn text-uppercase">gadgets</button>
               <p class="card-text">Gadgets That Make Your Smartphone Even Smarter</p>
@@ -21,7 +26,7 @@
       </div>
       <div class="col">
         <div class="card bg-dark text-white border-0 ">
-          <img src="../../assets/img/blog-48.jpg" class="card-img" alt="">
+          <img src="../../assets/img/blog-48.jpg" class="card-img opacity-50" alt="">
             <div class="card-img-overlay text-container">
               <button type="button" class="btn text-uppercase">travel</button>
               <p class="card-text">20 Top-Rated Tourist Attractions in Manhattan</p>
@@ -30,7 +35,7 @@
       </div>
       <div class="col">
       <div class="card bg-dark text-white border-0 ">
-        <img src="../../assets/img/blog-49.jpg" class="card-img" alt="">
+        <img src="../../assets/img/blog-49.jpg" class="card-img opacity-50" alt="">
           <div class="card-img-overlay text-container bottom">
             <button type="button" class="btn text-uppercase">lifestyle</button>
             <p class="card-text">The Best Way to Ride a Motorcycle</p>
@@ -39,7 +44,7 @@
       </div>
       <div class="col">
         <div class="card bg-dark text-white border-0 ">
-          <img src="../../assets/img/blog-50.jpg" class="card-img" alt="">
+          <img src="../../assets/img/blog-50.jpg" class="card-img opacity-50" alt="">
             <div class="card-img-overlay text-container bottom">
               <button type="button" class="btn text-uppercase">travel</button>
               <p class="card-text">5 Fun Things to Do at the Beach</p>
@@ -48,7 +53,7 @@
       </div>
       <div class="col">
         <div class="card bg-dark text-white border-0 ">
-          <img src="../../assets/img/blog-51.jpg" class="card-img" alt="">
+          <img src="../../assets/img/blog-51.jpg" class="card-img opacity-50" alt="">
             <div class="card-img-overlay text-container">
               <button type="button" class="btn text-uppercase">recipes</button>
               <p class="card-text">Amazing Fresh Fruit And Herb Drinks For Summer</p>
@@ -179,7 +184,16 @@ export default {
   .card-text {
     font-weight: bold;
     font-size: 1.2em;
+    .text-hover {
+      display: none;
+      color: $text-color-dark-grey2;
+    }
   }
+}
+.card {
+  &:hover .text-hover {
+    display: block;
+    }
 }
 .btn {
   background-color: $bg-color-blue;

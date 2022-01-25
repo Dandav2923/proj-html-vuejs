@@ -184,18 +184,22 @@ export default {
   .card-text {
     font-weight: bold;
     font-size: 1.2em;
-    .text-hover {
-      display: none;
-      color: $text-color-dark-grey2;
-    }
   }
 }
-.card {
+.text-hover {
+  display: none;
+  color: $text-color-dark-grey2;
+}
+.card-img-overlay{
   &:hover .text-hover {
     display: block;
     }
 }
-.btn {
+.card-img-overlay{
+  &:hover{
+    margin: 0;
+    }
+}.btn {
   background-color: $bg-color-blue;
   color: $text-color-white;
 }

@@ -1,6 +1,6 @@
 <template>
 <footer>
-  <div class="container-fluid position-relative bg-dark">
+  <div class="container-fluid position-relative bg-footer">
     <div class="container">
       <div class="row justify-content-center py-5">
         <div class="col-12">
@@ -48,53 +48,66 @@
             </div>
             <div class="col categories">
               <h4 class="text-uppercase fs-6">categories</h4>
-              <ul class="list-group">
-                <li class="list-group-item w-50 d-flex">
-                  <button type="button" class="btn text-uppercase">photography
+              <div class="row flex-column">
+                <div class="col">
+                  <button type="button" class="btn text-uppercase text-white rounded-5">gadgets
                   </button>
-                  <button type="button" class="btn text-uppercase">photography
+                  <button type="button" class="btn text-uppercase text-white rounded-5">photography
                   </button>
-                </li>
-                <li class="list-group-item w-50 d-flex">
-                  <button type="button" class="btn text-uppercase">photography
+                </div>
+                <div class="col">
+                  <button type="button" class="btn text-uppercase text-white rounded-5">lifestyle
                   </button>
-                  <button type="button" class="btn text-uppercase">photography
+                  <button type="button" class="btn text-uppercase text-white rounded-5">fashion
                   </button>
-                  <button type="button" class="btn text-uppercase">photography
+                  <button type="button" class="btn text-uppercase text-white rounded-5">recipes
                   </button>
-                </li>
-                <li class="list-group-item w-50 d-flex">
-                  <button type="button" class="btn text-uppercase">photography
+                </div>
+                <div class="col">
+                  <button type="button" class="btn text-uppercase text-white rounded-5">travel
                   </button>
-                  <button type="button" class="btn text-uppercase">photography
+                  <button type="button" class="btn text-uppercase text-white rounded-5">business
                   </button>
-                </li>
-                <li class="list-group-item w-50 d-flex">
-                  <button type="button" class="btn text-uppercase">photography
+                </div>
+                <div class="col">
+                  <button type="button" class="btn text-uppercase text-white rounded-5">architecture
                   </button>
-                  <button type="button" class="btn text-uppercase">photography
+                  <button type="button" class="btn text-uppercase text-white rounded-5">reviews
                   </button>
-                </li>
-                <li class="list-group-item w-50 d-flex">
-                  <button type="button" class="btn text-uppercase">photography
+                </div>
+                <div class="col">
+                  <button type="button" class="btn text-uppercase text-white rounded-5">sports
                   </button>
-                  <button type="button" class="btn text-uppercase">photography
+                  <button type="button" class="btn text-uppercase text-white rounded-5">videos
                   </button>
-                  <button type="button" class="btn text-uppercase">photography
+                  <button type="button" class="btn text-uppercase text-white rounded-5">technology
                   </button>
-                </li>
-                <li class="list-group-item w-50 d-flex">
-                  <button type="button" class="btn text-uppercase">photography
+                </div>
+                <div class="col">
+                  <button type="button" class="btn text-uppercase text-white rounded-5">design
                   </button>
-                </li>
-              </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-12">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium magni aut optio aliquam possimus, natus consectetur odit distinctio laboriosam. Provident, beatae adipisci? Adipisci est maiores nemo repellendus nulla ex officia!
+  </div>
+  <div class="container-fluid bg-dark-grey ">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 d-flex align-items-center justify-content-between">
+          <div class="container-img-footer">
+            <img class="w-50" src="../../assets/img/logo-footer.png" alt="">
+          </div>
+          <div class="copyright">
+            <p class="m-0 text-grey">© Copyright 2020. All rights Reserved.</p>
+          </div>
+          <div class="container-links-faq text-grey">
+            <i class="fas fa-chevron-right mx-2">FAQ's</i>
+            <i class="fas fa-chevron-right mx-2">Sitemap</i>
+            <i class="fas fa-chevron-right mx-2">Contact Us</i>
+          </div>
         </div>
       </div>
       <div class="container-absolute">
@@ -102,6 +115,7 @@
       </div>
     </div>
   </div>
+</div>
 </footer>
 </template>
 
@@ -113,6 +127,9 @@ export default {
 
 <style lang="scss" scoped>
 @import "../../assets/scss/partials/_variables.scss";
+.bg-footer {
+  background-color: $bg-color-semi-black;
+}
 .col, .col-12{
   color: white;
 }
@@ -138,5 +155,12 @@ export default {
 }
 .color-blue {
   color: $text-color-blue;
+}
+.btn {
+  margin: 0.1em;
+  background-color: $text-color-black;
+}
+.bg-dark-grey {
+  background-color: $bg-color-dark-grey3;
 }
 </style>

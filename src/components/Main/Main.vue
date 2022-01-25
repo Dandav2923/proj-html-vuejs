@@ -1,9 +1,9 @@
 <template>
-  <div class="container-fluid">
-      <MainTop />
-      <MainMid />
-      <MainBot />
-  </div>
+<div class="container-fluid p-0">
+    <MainTop />
+    <MainMid />
+    <MainBot />
+</div>
 </template>
 
 <script>

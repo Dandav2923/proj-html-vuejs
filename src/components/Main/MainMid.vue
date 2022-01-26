@@ -12,22 +12,6 @@
                         <button class="btn btn-primary">recipes</button>
                         <button class="btn btn-primary">travel</button>
                     </div>
-                    <div class="carousel-item d-flex justify-content-center" data-bs-interval="false">
-                        <button class="btn btn-primary">Gadgets</button>
-                        <button class="btn btn-primary">photography</button>
-                        <button class="btn btn-primary">lifestyle</button>
-                        <button class="btn btn-primary">fashion</button>
-                        <button class="btn btn-primary">recipes</button>
-                        <button class="btn btn-primary">travel</button>
-                    </div>
-                    <div class="carousel-item d-flex justify-content-center">
-                        <button class="btn btn-primary">Gadgets</button>
-                        <button class="btn btn-primary">photography</button>
-                        <button class="btn btn-primary">lifestyle</button>
-                        <button class="btn btn-primary">fashion</button>
-                        <button class="btn btn-primary">recipes</button>
-                        <button class="btn btn-primary">travel</button>
-                    </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -105,7 +89,13 @@ export default {
 .container-fluid .row {
     background-color: $bg-color-blue;
 }
-
+.btn.btn-primary{
+    background-color: $bg-color-semi-black;
+    border: 0;
+    padding: 0.3em 1.5em 0.3em 1.5em;
+    margin: 0 50px 0 50px;
+    text-transform: uppercase;
+}
 
 
 </style>

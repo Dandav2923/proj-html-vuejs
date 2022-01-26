@@ -4,7 +4,7 @@
       <div class="col-12">
         <div class="row">
           <div class="col-9">
-            <div class="container-post">
+            <div class="container-post mb-5">
               <div class="container-img">
                 <img class="w-100" src="../../assets/img/blog-54.jpg" alt="">
               </div>
@@ -29,19 +29,19 @@
                     </p>
                     <div class="container-links-post d-flex justify-content-between">
                       <div class="links">
-                        <i class="far fa-user mx-1"> By John Doe </i>
-                        <i class="far fa-folder mx-1"> Lifestyle, Travel </i>
-                        <i class="far fa-comments mx-1"> 12 Comments </i>
+                        <i class="far fa-user mx-1"></i><span>By John Doe</span>
+                        <i class="far fa-folder mx-1"></i><span>Lifestyle, Travel</span>
+                        <i class="far fa-comments mx-1"></i><span>12 Comments</span>
                       </div>
                       <div class="button-read-more">
-                        <button class="text-uppercase">read more</button>
+                        <button class="btn btn-light text-uppercase">read more</button>
                       </div>
                     </div>
                     </div>
                 </div>
               </div>
             </div>
-            <div class="container-post">
+            <div class="container-post mb-5">
               <div class="container-img">
                 <img class="w-100" src="../../assets/img/blog-55 (1).jpg" alt="">
               </div>
@@ -71,14 +71,14 @@
                         <i class="far fa-comments mx-1"> 12 Comments </i>
                       </div>
                       <div class="button-read-more">
-                        <button class="text-uppercase">read more</button>
+                        <button class="btn btn-light text-uppercase">read more</button>
                       </div>
                     </div>
                     </div>
                 </div>
               </div>
             </div>
-            <div class="container-post">
+            <div class="container-post mb-5">
               <div class="container-img">
                 <img class="w-100" src="../../assets/img/blog-56 (1).jpg" alt="">
               </div>
@@ -108,14 +108,14 @@
                         <i class="far fa-comments mx-1"> 12 Comments </i>
                       </div>
                       <div class="button-read-more">
-                        <button class="text-uppercase">read more</button>
+                        <button class="btn btn-light text-uppercase">read more</button>
                       </div>
                     </div>
                     </div>
                 </div>
               </div>
             </div>
-            <div class="container-post">
+            <div class="container-post mb-5">
               <div class="container-img">
                 <img class="w-100" src="../../assets/img/blog-58 (1).jpg" alt="">
               </div>
@@ -145,14 +145,14 @@
                         <i class="far fa-comments mx-1"> 12 Comments </i>
                       </div>
                       <div class="button-read-more">
-                        <button class="text-uppercase">read more</button>
+                        <button class="btn btn-light text-uppercase">read more</button>
                       </div>
                     </div>
                     </div>
                 </div>
               </div>
             </div>
-            <div class="container-post">
+            <div class="container-post mb-5">
                 <div class="row row-cols-3 m-0">
                   <div class="col p-0">
                     <img class="w-100" src="../../assets/img/blog-13.jpg" alt="">
@@ -199,7 +199,7 @@
                           <i class="far fa-comments mx-1"> 12 Comments </i>
                         </div>
                         <div class="button-read-more">
-                          <button class="text-uppercase">read more</button>
+                          <button class="btn btn-light text-uppercase">read more</button>
                         </div>
                       </div>
                       </div>
@@ -208,7 +208,7 @@
               </div>
           </div>
           <div class="col-3">
-            <h4>Latest from twitter</h4>
+            <h2 class="text-uppercase fs-5 fw-bold">latest from twitter</h2>
             <div class="row mb-3">
               <div class="col-1">
                 <i class="fab fa-twitter"></i>
@@ -217,7 +217,7 @@
                 <p class="m-0">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam autem animi repellendus 
                 </p> 
-                <span>01:04 PM sep 18th</span>
+                <span class="color-text-blue">01:04 PM sep 18th</span>
               </div>
             </div>
             <div class="row mb-3">
@@ -228,10 +228,10 @@
                 <p class="m-0">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                 </p>
-                <span>01:04 PM sep 18th</span>
+                <span class="color-text-blue">01:04 PM sep 18th</span>
               </div>
             </div>
-            <h4>Photos From instagram</h4>
+            <h2 class="text-uppercase fs-5 fw-bold">photos from instagram</h2>
             <div class="row row-cols-3 m-0">
               <div class="col p-0">
                 <img 
@@ -265,22 +265,39 @@
                   src="../../assets/img/29415304_166583630713703_1032667922171953152_n.jpg" alt="">
               </div>
             </div>
-            <h4>
-              tags
-            </h4>
+            <h2 class="text-uppercase fs-5 fw-bold">tags</h2>
             <div class="container-buttons">
-              <button>design</button>
-              <button>brands</button>
-              <button>video</button>
-              <button>business</button>
-              <button>travel</button>
+              <button 
+                type="button" 
+                class="btn text-uppercase text-white rounded-pill bg-color-black ">
+                design
+              </button>
+              <button 
+                type="button" 
+                class="btn text-uppercase text-white rounded-pill bg-color-black ">
+                brands
+              </button>
+              <button 
+                type="button" 
+                class="btn text-uppercase text-white rounded-pill bg-color-black ">
+                video
+              </button>
+              <button 
+                type="button" 
+                class="btn text-uppercase text-white rounded-pill bg-color-black ">
+                business
+              </button>
+              <button 
+                type="button" 
+                class="btn text-uppercase text-white rounded-pill bg-color-black ">
+                travel
+              </button>
+              
             </div>
-            <h4>
-              find us on facebook
-            </h4>
+            <h2 class="text-uppercase fs-5 fw-bold">find us on facebook</h2>
             <div class="container-facebook border-start border-5">
-              <span class="d-inline-block p-2">
-                okler themes
+              <span class="d-inline-block p-2 color-text-blue">
+                Okler themes
               </span> 
             </div>
           </div>
@@ -339,5 +356,16 @@ export default {
   color: $text-color-white;
   background-color: $bg-color-blue;
   border-color: #dee2e6;
+}
+.color-text-blue {
+  color: $text-color-blue;
+}
+.bg-color-black {
+  background-color: $bg-color-semi-black;
+}
+.btn {
+  font-size: 0.6em;
+  padding: 0.2em;
+  margin: 0 0.5em 2em 0 ;
 }
 </style>

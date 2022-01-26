@@ -139,7 +139,7 @@ export default {
   background-color: $bg-color-blue;
   position: absolute;
   top: -30px;
-  left: 283px;
+  left: 620px;
   // box-shadow: 5px 5px 8px 8px blue,
   // box-shadow: 5px -10px  blue;
   h3 {

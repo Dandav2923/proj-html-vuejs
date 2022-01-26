@@ -28,7 +28,7 @@
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNav">
         <ul class="navbar-nav">
-<!-- creazione dinamica del componente figlio (Headerbot) che essento un li viene geretato tot volte quanti sono gli elementi nei data -->
+<!-- creazione dinamica del componente figlio (Headerbot) che essendo un <li> viene geretato tot volte quanti sono gli elementi nei data -->
         <HeaderBot
             v-for="(element, index) in headerBot"
             :key="index + 'ID2'"

@@ -19,72 +19,41 @@
             <div class="col recent-post">
               <h4 class="text-uppercase fs-6">Recent post</h4>
               <ul class="list-group list-group-flush ">
-                <li class="list-group-item p-0 my-2 d-flex bg-dark" >
-                  <img class="w-25 my-3 rounded-pill" src="../../assets/img/our-office-4-square.jpg" alt="">
+                <li
+                  v-for="(element, index) in recentPost"
+                  :key="index + 'ID5'"
+                  class="list-group-item p-0 my-2 d-flex bg-dark" >
+                  <img 
+                    class="w-25 my-3 rounded-pill" 
+                    :src="element.img" 
+                    alt="">
                   <div class="container-info p-3 text-white">
-                    <h5>titolo articolo</h5>
-                    <p class="text-grey">data articolo</p>
-                  </div>
-                </li>
-                <li class="list-group-item p-0 my-2 d-flex bg-dark">
-                  <img class="w-25 my-3 rounded-pill" src="../../assets/img/our-office-5-square.jpg" alt="">
-                  <div class="container-info p-3 text-white">
-                    <h5>titolo articolo</h5>
-                    <p class="text-grey">data articolo</p>
+                    <h5>{{ element.title }}</h5>
+                    <p class="text-grey">{{ element.date }}</p>
                   </div>
                 </li>
               </ul>
             </div>
             <div class="col comments">
               <h4 class="text-uppercase fs-6">Recent comments</h4>
-              <div class="container-comments">
-                <i class="fas fa-chevron-right color-blue me-2"></i>
-                <span>john doe commented on <a class="text-decoration-none" href="#">lorem lorem lorem</a></span>
-                <p class="text-grey">data articolo</p>
-                <i class="fas fa-chevron-right color-blue me-2"></i>
-                <span>john doe commented on <a class="text-decoration-none" href="#">lorem lorem lorem</a></span>
-                <p class="text-grey">data articolo</p>
+              <div
+                v-for="(element, index) in recentComments"
+                :key="index + 'ID4'"
+                class="container-comments">
+                  <i class="fas fa-chevron-right color-blue me-2"></i>
+                  <span><span>{{ element.author }}</span> commented on <a class="text-decoration-none" href="#">{{ element.comment }}</a></span>
+                  <p class="text-grey">{{ element.date }}</p>
               </div>
             </div>
             <div class="col categories">
               <h4 class="text-uppercase fs-6">categories</h4>
               <div class="row flex-column">
                 <div class="col">
-                  <button type="button" class="btn text-uppercase text-white rounded-5">gadgets
-                  </button>
-                  <button type="button" class="btn text-uppercase text-white rounded-5">photography
-                  </button>
-                </div>
-                <div class="col">
-                  <button type="button" class="btn text-uppercase text-white rounded-5">lifestyle
-                  </button>
-                  <button type="button" class="btn text-uppercase text-white rounded-5">fashion
-                  </button>
-                  <button type="button" class="btn text-uppercase text-white rounded-5">recipes
-                  </button>
-                </div>
-                <div class="col">
-                  <button type="button" class="btn text-uppercase text-white rounded-5">travel
-                  </button>
-                  <button type="button" class="btn text-uppercase text-white rounded-5">business
-                  </button>
-                </div>
-                <div class="col">
-                  <button type="button" class="btn text-uppercase text-white rounded-5">architecture
-                  </button>
-                  <button type="button" class="btn text-uppercase text-white rounded-5">reviews
-                  </button>
-                </div>
-                <div class="col">
-                  <button type="button" class="btn text-uppercase text-white rounded-5">sports
-                  </button>
-                  <button type="button" class="btn text-uppercase text-white rounded-5">videos
-                  </button>
-                  <button type="button" class="btn text-uppercase text-white rounded-5">technology
-                  </button>
-                </div>
-                <div class="col">
-                  <button type="button" class="btn text-uppercase text-white rounded-5">design
+                  <button 
+                    v-for="(element, index) in buttons"
+                    :key="index + 'ID3'"
+                    type="button" 
+                    class="btn text-uppercase text-white rounded-5"> {{ element.button}}
                   </button>
                 </div>
               </div>
@@ -122,6 +91,75 @@
 <script>
 export default {
     name: 'Footer',
+    data(){
+      return {
+        buttons: [
+          {
+            button:'gadgets',
+          },
+          {
+            button:'photography',
+          },
+          {
+            button:'lifestyle',
+          },
+          {
+            button:'fashion',
+          },
+          {
+            button:'recipes',
+          },
+          {
+            button:'travel',
+          },
+          {
+            button:'business',
+          },
+          {
+            button:'architecture',
+          },
+          {
+            button:'reviews',
+          },
+          {
+            button:'sports',
+          },
+          {
+            button:'videos',
+          },
+          {
+            button: 'technology',
+          },
+          {
+            button:'design',
+          }
+        ],
+        recentComments: [
+          {
+            author: 'John Doe',
+            comment: 'lorem lorem lorem',
+            date: '26/01/2022'
+          },
+          {
+            author: 'John Doe',
+            comment: 'lorem lorem lorem',
+            date: '26/01/2022'
+          },
+        ],
+        recentPost: [
+          {
+            img:require('../../assets/img/our-office-4-square.jpg'),
+            title: 'titolo articolo',
+            date: '26/01/2022'
+          },
+          {
+            img:require('../../assets/img/our-office-5-square.jpg'),
+            title: 'titolo articolo',
+            date: '26/01/2022'
+          },
+        ]
+      }
+    }
 }
 </script>
 

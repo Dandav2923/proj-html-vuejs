@@ -15,17 +15,22 @@
     :src=element.img_src
 />
 <hr class="m-0">
-<HeaderBot
-    v-for="(element, index) in headerBot"
-    :key="index + 'ID2'"
-    :linkHome=element.linkHome
-    :linkElements=element.linkElements
-    :linkFeatures=element.linkFeatures
-    :linkPages=element.linkPages
-    :linkPortfolio=element.linkPortfolio
-    :linkBlog=element.linkBlog
-    :linkShop=element.linkShop
-/>
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNav">
+        <ul class="navbar-nav">
+        <HeaderBot
+            v-for="(element, index) in headerBot"
+            :key="index + 'ID2'"
+            :link=element.link
+        />
+        </ul>
+        <span>
+        <i class="fas fa-search"></i>
+        </span>
+        </div>
+    </nav>
+</div>
 </div>
 </template>
 
@@ -58,13 +63,25 @@ components: {
             ],
             headerBot: [
                 {
-                    linkHome: 'home',
-                    linkElements: 'elements',
-                    linkFeatures: 'features',
-                    linkPages: 'pages',
-                    linkPortfolio: 'portfolio',
-                    linkBlog: 'blog',
-                    linkShop: 'shop'
+                    link: 'home',
+                },
+                {
+                    link: 'elements',
+                },
+                {
+                    link: 'features',
+                },
+                {
+                    link: 'pages',
+                },
+                {
+                    link: 'portfolio',
+                },
+                {
+                    link: 'blog',
+                },
+                {
+                    link: 'shop'
                 }
             ]
         }

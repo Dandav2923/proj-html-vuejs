@@ -3,6 +3,7 @@
   <div class="container-fluid bg-white7">
     <div class="container">
       <div class="row row-cols-3 justify-content-between">
+        <!-- creazione statica del template delle immagini nella parte superiore del main  -->
         <div class="col">
         <div class="card bg-dark text-white border-0 ">
           <img src="../../assets/img/blog-46.jpg" class="card-img opacity-50" alt="">
@@ -82,6 +83,7 @@
   <div class="container-fluid">
     <div class="container">
       <div class="row row-cols-3">
+        <!-- crezione statica dei post recenti di quelli più visti -->
       <div class="col popular-posts">
         <h2 class="text-uppercase fs-5 fw-bold mb-0 mt-4">Popular posts</h2>
         <ul class="list-group list-group-flush">

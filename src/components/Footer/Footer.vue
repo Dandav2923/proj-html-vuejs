@@ -5,6 +5,7 @@
       <div class="row justify-content-center py-5">
         <div class="col-12">
           <div class="row row-cols-4">
+            <!-- stampa dinamica delle informazioni del footer esclusi gli about  -->
             <div class="col about">
               <h4 class="text-uppercase fs-6">about the blog</h4>
               <p class="text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam delectus explicabo sunt amet eaque distinctio iste expedita minima quo similique
@@ -62,6 +63,7 @@
         </div>
       </div>
   </div>
+  <!-- sezione dedicata al copyright  -->
   <div class="container-fluid bg-dark-grey ">
     <div class="container">
       <div class="row justify-content-center">

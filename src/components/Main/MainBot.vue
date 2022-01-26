@@ -4,6 +4,7 @@
       <div class="col-12">
         <div class="row">
           <div class="col-9">
+            <!-- stampa statica dei post presenti nel server del blog -->
             <div class="container-post mb-5">
               <div class="container-img">
                 <img class="w-100" src="../../assets/img/blog-54.jpg" alt="">
@@ -304,6 +305,7 @@
         </div>
       </div>
     </div>
+    <!-- stampa dei selettori di pagina dei post -->
     <div class="row">
       <div class="col-9">
         <nav

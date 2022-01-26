@@ -1,14 +1,23 @@
 <template>
 <div class="container-fluid">
-<HeaderTop 
-    v-for="(element, index) in headerTop"
-    :key="index"
-    :description=element.description
-    :linkSign=element.linkSign
-    :linkAbout=element.linkAbout
-    :linkContact=element.linkContact
-    :linkBuy=element.linkBuy
-/>
+<!-- creazione dinamica del componente figlio (HeaderTop) -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-color-blue">
+        <div class="container">
+            <span class="color-text-blue">
+                {{ description }}
+            </span>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <HeaderTop 
+                        v-for="(element, index) in headerTop"
+                        :key="index"
+                        :linkNav=element.link
+                    />
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!-- creazione dinamica del componente figlio (HeaderMid) -->
 <HeaderMid 
     v-for="(element, index) in img"
     :key="index + 'ID1'"
@@ -19,6 +28,7 @@
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNav">
         <ul class="navbar-nav">
+<!-- creazione dinamica del componente figlio (Headerbot) che essento un li viene geretato tot volte quanti sono gli elementi nei data -->
         <HeaderBot
             v-for="(element, index) in headerBot"
             :key="index + 'ID2'"
@@ -47,14 +57,20 @@ components: {
     name: 'Header',
     data(){
         return {
+            description: 'Everything about Lifestyle, Travel and Gadgets!',
             headerTop: [
                 {
-                    description: 'Everything about Lifestyle, Travel and Gadgets!',
-                    linkSign: 'sign in',
-                    linkAbout: 'about us',
-                    linkContact: 'contact us',
-                    linkBuy: 'buy now'
-                }
+                    link: 'sign in',
+                },
+                {
+                    link: 'about us',
+                },
+                {
+                    link: 'contact us',
+                },
+                {
+                    link: 'buy now',
+                },
             ],
             img: [
                 {
@@ -93,5 +109,11 @@ components: {
 @import "../../assets/scss/style.scss";
 .container-fluid {
     padding:0 !important;
+}
+.bg-color-blue {
+    background-color: $bg-color-blue;
+}
+.color-text-blue {
+    color: $text-color-light-blue;
 }
 </style>

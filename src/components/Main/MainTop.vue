@@ -208,6 +208,7 @@ export default {
 }
 .card-img-overlay {
   margin-top: 6.5em ;
+  transition: all 1s;
   .card-text {
     font-weight: bold;
     font-size: 1.2em;
@@ -216,10 +217,12 @@ export default {
 .text-hover {
   display: none;
   color: $text-color-dark-grey2;
+  
 }
 .card-img-overlay{
   &:hover .text-hover {
     display: block;
+    
     }
 }
 .card-img-overlay{

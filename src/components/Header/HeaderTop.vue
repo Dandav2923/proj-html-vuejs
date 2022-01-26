@@ -2,29 +2,29 @@
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
       <span>
-          Everything about Lifestyle, Travel and Gadgets!
+          {{ description }}
       </span>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
             <a 
               class="nav-link text-uppercase text-decoration-none" 
-              href="#">sign in </a>
+              href="#">{{ linkSign }} </a>
           </li>
           <li class="nav-item">
             <a 
               class="nav-link text-uppercase text-decoration-none" 
-              href="#">about us</a>
+              href="#">{{ linkAbout }}</a>
           </li>
           <li class="nav-item">
             <a 
               class="nav-link text-uppercase text-decoration-none" 
-              href="#">contact us</a>
+              href="#">{{ linkContact}}</a>
             </li>
             <li class="nav-item">
               <a 
                 href="#"
-                class="nav-link text-uppercase text-decoration-none">buy now</a>
+                class="nav-link text-uppercase text-decoration-none">{{ linkBuy }}</a>
             </li>
         </ul>
       </div>
@@ -34,7 +34,14 @@
 
 <script>
 export default {
-    name: 'HeaderTop'
+    name: 'HeaderTop',
+    props: [
+      'description',
+      'linkSign',
+      'linkAbout',
+      'linkBuy',
+      'linkContact'
+    ]
 }
 </script>
 

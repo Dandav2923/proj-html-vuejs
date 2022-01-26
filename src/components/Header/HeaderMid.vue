@@ -2,14 +2,17 @@
   <div class="container">
       <img 
         class="py-4"
-        src="../../assets/img/logo-default-slim.png" 
+        :src="src"
         alt="logo della società">
   </div>
 </template>
 
 <script>
 export default {
-    name: 'HeaderMid'
+    name: 'HeaderMid',
+    props: [
+      'src',
+    ]
 }
 </script>
 
